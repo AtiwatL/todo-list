@@ -63,9 +63,8 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h1 style={{ textAlign: "center" }}>Todo List</h1>
-
+    <div className="container">
+      <h1 style={{ textAlign: "center", color: "#478BA2" }}>Todo List</h1>
       {!isEdit ? (
         <Form handleSubmit={handleSubmit} setTodo={setTodo} todo={todo} />
       ) : (

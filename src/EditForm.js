@@ -7,7 +7,7 @@ function EditForm({
   handleEditFormSubmit,
 }) {
   return (
-    <form onSubmit={handleEditFormSubmit}>
+    <form className="form" onSubmit={handleEditFormSubmit}>
       <h1 style={{ textAlign: "center" }}>Edit Todo List</h1>
       <input
         type="text"
